@@ -1,11 +1,15 @@
+<!DOCTYPE html>
 <html>
+ <head>
+   <title>Главная страница</title>
+   <meta charset="utf-8">
+ </head>
 <body>
-
-<form action="hello.php" method="post">
-Тебя зовут: <input type="text" name="name"><br>
-Твой город: <input type="text" name="email"><br>
-Твой возраст: <input type="text" name="age"><br>
-<input type="submit">
+<form action="hello.php" method="get">
+Тебя зовут: <input type="text" name="name"><br><!--Пользователь вводит свои данные-->
+Твой город: <input type="text" name="city"><br>
+Твой возраст: <input type="integer" name="age"><br>
+<input type="submit"><!--Кнопка отправить-->
 </form>
 
 </body>
